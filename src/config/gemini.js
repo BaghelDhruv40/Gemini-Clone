@@ -2,7 +2,7 @@ import{
     GoogleGenerativeAI,
   } from "@google/generative-ai";
   
-  console.log(import.meta.env.VITE_API_KEY)
+
   const genAI = new GoogleGenerativeAI(import.meta.env.VITE_API_KEY);
   
   const model = genAI.getGenerativeModel({
